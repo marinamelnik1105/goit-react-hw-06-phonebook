@@ -5,7 +5,6 @@ export const filterSlice = createSlice({
   initialState: '',
   reducers: {
     filterContacts(state, action) {
-      console.log(state.filter);
       return (state = action.payload);
     },
   },
