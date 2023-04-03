@@ -15,7 +15,6 @@ const FormSchema = Yup.object().shape({
 export const ContactForm = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(getContacts);
-  console.log(contacts);
   const onSave = (values, actions) => {
     const isRepeadCheck = contacts.some(
       ({ name }) => name.toLowerCase() === values.name.toLowerCase()

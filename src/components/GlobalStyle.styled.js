@@ -17,6 +17,6 @@ background-color:#a8a9db;
 padding: 5px;
 :hover{
 background-color:#2a30df;
-color:#fff;
-border: }
+color:#fff; }
+
 }`;
